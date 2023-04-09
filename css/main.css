@@ -1,0 +1,138 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Gochi Hand", cursive; */
+  font-family: "Gluten", cursive;
+  color: black;
+}
+
+body {
+  position: relative;
+  background-image: url("../salom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: black;
+  overflow-y: hidden;
+  padding-top: 100px;
+}
+.login {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.4);
+  gap: 20px;
+  padding: 60px 20px;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+.login2 {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.4);
+  gap: 40px;
+  padding: 60px 20px;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.inp {
+  background-color: rgba(0, 0, 0, 0.3);
+
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+  border: 2px solid white;
+}
+.inp::placeholder {
+  color: white;
+  font-size: 20px;
+}
+.answer {
+  border: 1px solid rgb(184, 184, 184);
+  color: rgb(184, 184, 184);
+  transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.btn-inp {
+  background-color: rgb(59, 197, 38);
+}
+.btn-inp:hover {
+  background-color: rgb(31, 121, 17);
+}
+
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.answer:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.sizes {
+  font-size: 26px;
+}
+.btn-easy {
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+}
+.btn-medium {
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+}
+.btn-hard {
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+}
+
+.choose {
+  white-space: nowrap;
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+}
+
+.correctcha {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  display: none;
+}
